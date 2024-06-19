@@ -7,3 +7,9 @@
 /dataSources/
 /dataSources.local.xml
 .idea
+/codeStyles/codeStyleConfig.xml
+/misc.xml
+/modules.xml
+/codeStyles/Project.xml
+/raspberrypi-spark-deployment.iml
+/vcs.xml
