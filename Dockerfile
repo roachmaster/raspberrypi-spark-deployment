@@ -2,8 +2,8 @@
 FROM leonardorocha1990/raspberry-pi-64-alpine-jdk11:1.0.0-SNAPSHOT
 
 # define spark and hadoop versions
-ENV SPARK_VERSION=3.2.0 \
-    HADOOP_VERSION=3.3.1
+ENV SPARK_VERSION=3.2.0
+ENV HADOOP_VERSION=3.3.1
 
 # download and install hadoop
 RUN cd /opt \
