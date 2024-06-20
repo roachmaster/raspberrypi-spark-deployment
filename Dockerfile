@@ -15,7 +15,7 @@ RUN cd /opt \
     && wget http://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop2.7.tgz \
     && tar -xzvf spark-${SPARK_VERSION}-bin-hadoop2.7.tgz \
     && rm spark-${SPARK_VERSION}-bin-hadoop2.7.tgz \
-    && ln -s spark-${SPARK_VERSION}-bin-hadoop2.7 spark \
+    && ln -s spark-${SPARK_VERSION}-bin-hadoop2.7 spark
 
 # add scripts and update spark default config
 ADD ./docker/common.sh ./docker/spark-master ./docker/spark-worker /
